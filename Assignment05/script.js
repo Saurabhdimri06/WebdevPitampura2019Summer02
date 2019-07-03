@@ -25,7 +25,8 @@ for(var i = 0;i<=counter;i++){
             document.getElementById(i).style.textDecoration = "line-through"
             document.getElementById(i).setAttribute("class", "striked")
         }
-        else {document.getElementById(i).style.textDecoration = "none"}
+        else {document.getElementById(i).style.textDecoration = "none"
+             document.getElementById(i).removeAttribute("class","striked"}
     }
 }
 
